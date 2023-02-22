@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="super_element">Привет</p>
+
+<img src="https://placeimg.com/50/50/animals" alt="" />
+<img src="https://placeimg.com/50/50/arch" alt="" />
+<img src="https://placeimg.com/50/50/nature" alt="" />
+<img src="https://placeimg.com/50/50/people" alt="" />
+<img src="https://placeimg.com/50/50/tech" alt="" />
+<img src="https://placeimg.com/50/50/tech/grayscale" alt="" />
+<img src="https://placeimg.com/50/50/tech/sepia" alt="" />
+
+<br />
+
+<button>Кнопка</button>
+<button class="super_element">Кнопка с классом btn</button>
+<button>Кнопка</button>
+
+<br />
+
+<textarea></textarea>
+
+<br />
+
+<ul>
+    <li>
+        <button>Кнопка 1</button>
+    </li>
+    <li>
+        <button>Кнопка 2</button>
+    </li>
+    <li>
+        <button>Кнопка 3</button>
+    </li>
+    <li>
+        <button>Кнопка 4</button>
+    </li>
+</ul>
+
+<script>
+    "use strict";
+    // задание1
+    document.addEventListener("DOMContentLoaded", () => {
+        console.log("все теги прогрузились");
+    });
+    // задание2
+    window.addEventListener("load", function(e) {
+        console.log("страница загрузилась");
+    });
+    // задание 3
+    const buttonEl = document.querySelector("button");
+    buttonEl.onclick = function() {
+        console.log("событие click");
+    };
+
+    const buttonElement = document.querySelectorAll("button");
+    // buttonElement.addEventListener("mouseover", function name(params) {});
+    // buttonElement.addEventListener("mouseout", function name(params) {});
+    buttonElement.onclick = () => {
+        console.log("вы нажали на кнопку");
+    };
+    // задание 4
+    const textAr = document.querySelector("textarea");
+    textAr.addEventListener(
+        "mouseover",
+        (Element = (e) => {
+            console.log("вы навели на кнопку textarea");
+        })
+    ); // btn1.innerText = "Нажми меня";
+    // document.querySelector("body").appendChild(btn1);
+    // задание 5
+    let selectedul;
+
+    table.onclick = function(event) {
+        let target = event.target; // где был клик?
+
+        if (target.tagName != "ul") return; // не на TD? тогда не интересует
+
+        highlight(target); // подсветить
+    };
+    // задание 6
+    // задание 7
+
+    const liEl = document.querySelector("li");
+    liEl.style.color = "red";
+
+    var obj_list = document.querySelector("#list"),
+        objs_list_li = obj_list.querySelectorAll("li");
+
+    // Перебираем все li в #list
+    for (var i = 0; i < objs_list_li.length; i++) {
+        // Получаем список ul находящиеся в li
+        var objs_li_ul = objs_list_li[i].querySelectorAll("ul");
+
+        // Если li имеет ul, то применяем к заголовку стиль
+        if (objs_li_ul.length) {
+            objs_list_li[i].querySelector(".title").style.color = "red";
+        }
+    }
+    </script>
+</body>
+</html>

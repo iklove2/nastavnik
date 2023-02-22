@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./fonts/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(/fonts/Gilroy-Regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background: #FFFFFF;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+header {
+    margin-bottom: 89px;
+    margin-top: 40px;
+}
+
+.main {
+    margin-bottom: 162px;
+}
+
+footer {
+    margin-bottom: 99px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.global:hover {
+    color: #F25822;
+}
+
+.menu {
+    display: flex;
+    width: 533px;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-family: 'Gilroy-Semibold';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.content-text h1 {
+    font-family: 'Gilroy-Medium';
+    margin-bottom: 17px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.content-text p {
+    margin-bottom: 52px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color:  #888888;
+    width: 466px;
+}
+
+.button {
+    font-family: 'Gilroy-Bold';
+    color: #FFFFFF;
+    background: #F25822;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 35px;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+
+.btn {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: gray;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+}
+
+.content-btn {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    background: none;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-family: 'Gilroy-Semibold';
+    cursor: pointer;
+}
+
+.cards-list__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    gap: 60px;
+    opacity: 0.7;
+    width: 1112px;
+}
+
+.card1, .card3 {
+  height: 226px;
+  /*gap: 61px;*/
+  width: 310px;
+
+}
+
+.card2 {
+    height: 291px;
+    /*gap: 61px;*/
+    width: 370px;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.card1, .card2, .card3 a {
+    width: 64px;
+    height: 17px;
+    font-family: 'Gilroy-Bold';
+    color: #000000;
+}
+
+.content-list__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    opacity: 0.7;
+    width: 1112px;
+}
+
+.card4 {
+    grid-column: span 3;
+    justify-content: center;
+    width: 682px;
+    height: 123px;
+    padding: 200px;
+}
+
+.card4 h2 {
+    width: 579px;
+    height: 56px;
+    justify-content: center;
+    display: flex;
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.card4 p {
+    width: 682px;
+    height: 48px;
+    display: flex;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    color: #666666;
+}
+
+.card6 {
+    width: 370px;
+    height: 549px;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.card5, .card7 {
+    width: 370px;
+    height: 549px;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}

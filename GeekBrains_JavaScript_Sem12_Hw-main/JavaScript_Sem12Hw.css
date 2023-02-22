@@ -1,0 +1,154 @@
+.literally_everything {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    mix-blend-mode: normal;
+    border-style: solid;
+    border-style: solid;
+    align-items: inherit;
+}
+
+.header_top {
+    height: 75px;
+    max-width: 1600px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 98.43%;
+    background: #222222;
+}
+
+.net_symbol {
+    position: absolute;
+    left: 14.44%;
+    right: 82.81%;
+    top: 0.38%;
+    bottom: 98.83%;
+    background: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Group\ 2.png);
+    height: 38px;
+    width: 44px;
+    left: 231px;
+    top: 18px;
+    border-radius: 0px;
+}
+
+.search_button {
+    position: absolute;
+    left: 19.75%;
+    right: 78.63%;
+    top: 0.59%;
+    bottom: 98.85%;
+    background: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Forma\ loop.svg);
+    height: 26.791973114013672px;
+    width: 26.001638412475586px;
+    left: 315.997314453125px;
+    top: 28.2100830078125px;
+    border-radius: 0px;
+}
+
+.menu_button {
+    position: absolute;
+    left: 75.06%;
+    right: 22.94%;
+    top: 0.63%;
+    bottom: 98.89%;
+    background: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Forma\ menu.svg);
+    height: 23px;
+    width: 32px;
+    left: 1201px;
+    top: 30px;
+    border-radius: 0px;
+}
+
+.profile_button {
+    position: absolute;
+    left: 79.12%;
+    right: 19.06%;
+    top: 0.54%;
+    bottom: 98.85%;
+    background-image: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Forma\ man.svg);
+    height: 29px;
+    width: 29px;
+    left: 1266px;
+    top: 26px;
+    border-radius: 0px;
+}
+
+.shopcart_button {
+    position: absolute;
+    left: 83%;
+    right: 15%;
+    top: 0.54%;
+    bottom: 98.85%;
+    background-image: url(../JavaScript_Sem12Hw/JavaScript_Sem12Hw_images/Forma\ shopcart.svg);
+    height: 29.0000057220459px;
+    width: 31.99555778503418px;
+    left: 1328px;
+    top: 26px;
+    border-radius: 0px;
+}
+
+.our_brand_explanation_background_top {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 1.57%;
+    bottom: 82.42%;
+    background: #f1e4e6;
+    height: 764px;
+    width: 1600px;
+    left: 0px;
+    top: 75px;
+    border-radius: 0px;
+}
+
+.our_brand_explanation_someDude_top {
+    width: 800.58px;
+    height: 764px;
+    left: 0px;
+    top: 75px;
+}
+
+.our_brand_name {
+    position: absolute;
+    width: 405px;
+    height: 93.1px;
+    left: 864px;
+    top: 364.9px;
+    height: 93.09912109375px;
+    width: 405px;
+    left: 864px;
+    top: 364.90087890625px;
+    border-radius: 0px;
+}
+
+.offer {
+    position: absolute;
+    width: 1140px;
+    height: 470px;
+    left: 230px;
+    top: 904px;
+    border-radius: 0px;
+}
+
+.shop_block_top_sentense {
+    position: absolute;
+    width: 336px;
+    height: 53px;
+    left: 631px;
+    top: 1476px;
+}
+
+.shop_list img {
+    height: 587px;
+    width: 360.0000305175781px;
+    left: 230px;
+    top: 1576px;
+    border-radius: 0px;
+}
